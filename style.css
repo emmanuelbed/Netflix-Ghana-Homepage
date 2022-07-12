@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    
+    
+}
+
+#head-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+#head-area button{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    border: 0;
+    border-radius: 03px;
+    color: white;
+    font-family: montserrat;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#first-screen{
+    min-height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/GH-en-20210607-popsignuptwoweeks-perspective_alpha_website_medium.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.middle-content{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+
+}
+.middle-content h1{
+    font-family: montserrat;
+    font-size: 50px;
+    text-align: center;
+
+}
+.middle-content h5{
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.middle-content h6{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-content h5, .middle-content h6{
+    font-weight: 500;
+}
+.registration{
+    display: flex;
+}
+
+.registration input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    cursor: text;
+    padding-left: 20px;
+    font-family: montserrat;
+    font-size: 15px;
+}
+
+.registration button{
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-family: montserrat;
+    font-size: 20px;
+    cursor: pointer;
+}
+hr{
+    background-color: rgb(24, 24, 24);
+    border: none;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+#first-tv, #dark-phone{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100vw;
+    background-color: black;
+}
+
+
+
+#dark div h1{
+    font-size: 50px;
+    color: white;
+}
+
+#dark div h5{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+#first-tv .text{
+    width: 50%;
+    padding: 120px 100px 0 120px;
+}
+
+#dark-phone .text{
+    width: 50%;
+    padding: 70px 40px 0 100px;
+}
+
+#first-tv .image{
+    width: 50%;
+    position: relative;
+    padding-right: 50px;
+}
+#dark-phone .image{
+    width: 50%;
+    padding-left: 120px;
+}
+
+#first-tv .image video{
+    position:absolute;
+    width: 401px;
+    margin-left: -478px;
+    margin-top: 85px;
+    z-index: 1;
+   /* padding-top: -2000px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px){
+    *{
+        width: 100%;
+    }
+    #head-area{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #first-screen{
+        min-height: 75vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/GH-en-20210607-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #head-area img{
+        width: 120px;
+    }
+    
+    #head-area button{
+        height: 30px;
+        width: 60px;
+        background-color: red;
+        border: 0;
+        border-radius: 03px;
+        color: white;
+        font-family: montserrat;
+        font-weight: 400;
+        cursor: pointer;
+        float: left;
+    }
+    
+    
+    .middle-content{
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        
+    
+    }
+    .middle-content h1{
+        font-family: montserrat;
+        font-size: 50px;
+        text-align: center;
+    
+    }
+    .middle-content h5{
+        font-size: 25px;
+        margin: 10px 0 10px 0;
+        text-align: center;
+        color: white;
+    }
+    
+    .middle-content h6{
+        font-size: 17px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .middle-content h5, .middle-content h6{
+        font-weight: 500;
+    }
+    .registration{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    
+    
+    
+    /*Next Set*/
+    
+    hr{
+        background-color: rgb(24, 24, 24);
+        border: none;
+        height: 5px;
+        padding: 0;
+        margin: 0;
+    }
+    #first-tv{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100vw;
+        background-color: black;
+        align-content: center;
+    }
+    #dark-phone{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        width: 100vw;
+        background-color: black;
+        align-content: center;
+    }
+    #dark div h1{
+        font-size: 30px;
+        color: white;
+    }
+    
+    #dark div h5{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #first-tv img{
+        width: 500px;
+    }
+    #first-tv .text{
+        width: 80%;
+        padding-top: 70px;
+        align-self: center;
+    }
+    
+    #dark-phone .text{
+        width: 100%;
+        padding-top: 70px;
+    }
+    #dark-phone .image{
+        width: 50%;
+        padding-left: 120px;
+    }
+    
+    #first-tv .image video{
+        position:absolute;
+        width: 401px;
+        margin-left: -478px;
+        margin-top: 85px;
+        z-index: 1;
+       /* padding-top: -2000px;*/
+    }
+    
+}
